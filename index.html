@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Макет 1.3</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link defer rel="stylesheet" href="js/script.js" />
+  </head>
+
+  <body>
+    <header class="header-m">
+      <div class="header-m__left">
+        <button type="button" title="Кнопка меню" class="burger icon">
+          <img src="assets/icons/burger.svg" alt="Иконка меню" />
+        </button>
+        <a href="#" class="logo"
+          ><img src="assets/icons/logo.svg" alt="Логотип"
+        /></a>
+      </div>
+
+      <div class="header-m__right">
+        <ul class="header-m__list">
+          <li class="header-m__items">
+            <a href="#" class="phone icon"
+              ><img src="assets/icons/phone.svg" alt="Позвонить"
+            /></a>
+          </li>
+          <li class="header-m__items">
+            <a href="#" class="chat icon"
+              ><img src="assets/icons/chat.svg" alt="Написать"
+            /></a>
+          </li>
+          <li class="header-m__items">
+            <a href="#" class="user icon"
+              ><img src="assets/icons/user.svg" alt="Профиль"
+            /></a>
+          </li>
+          <li class="header-m__items">
+            <a href="#" class="repair icon"
+              ><img src="assets/icons/repair.svg" alt="Оставить заявку" />
+            </a>
+          </li>
+          <li class="header-m__items">
+            <a href="#" class="check icon"
+              ><img src="assets/icons/check.svg" alt="Статус работ"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="services-m">
+        <div class="services-m__container">
+          <div class="services-m__container-top">
+            <h1 class="title">Услуги и сервисы</h1>
+            <ul class="services-m__list">
+              <li class="services-m__items">
+                <span>Оставить заявку</span
+                ><a href="#" class="repair-btn icon"
+                  ><img src="assets/icons/repair.svg" alt="Оставить заявку" />
+                </a>
+              </li>
+              <li class="services-m__items">
+                <span>Статус ремонта</span
+                ><a href="#" class="check icon"
+                  ><img src="assets/icons/check.svg" alt="Статус работ"
+                /></a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="tabs-nav">
+            <li class="tabs-nav__item">
+              <button
+                type="button"
+                class="tabs-nav__btn tabs-nav__btn--active"
+                data-path="one"
+              >
+                Ремонтируемые устройства
+              </button>
+            </li>
+            <li class="tabs-nav__item">
+              <button type="button" class="tabs-nav__btn" data-path="two">
+                Дополнительные услуги
+              </button>
+            </li>
+            <li class="tabs-nav__item">
+              <button type="button" class="tabs-nav__btn" data-path="three">
+                Цены на услуги
+              </button>
+            </li>
+            <li class="tabs-nav__item">
+              <button type="button" class="tabs-nav__btn" data-path="four">
+                Специальные цены
+              </button>
+            </li>
+            <li class="tabs-nav__item">
+              <button type="button" class="tabs-nav__btn" data-path="five">
+                Адреса сервисных центров
+              </button>
+            </li>
+            <li class="tabs-nav__item">
+              <button type="button" class="tabs-nav__btn" data-path="six">
+                Отзывы
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero">
+          <div class="hero__content">
+            <p class="hero__text">
+              Мы&nbsp;являемся&nbsp;авторизованным
+              сервисным&nbsp;центром&nbsp;по&nbsp;ремонту техники
+              Dell.&nbsp;Только у&nbsp;нас вы&nbsp;можете отремонтировать свой
+              ноутбук Dell&nbsp;с официальной&nbsp;гарантией&nbsp;производителя.
+            </p>
+            <p class="hero__text hero__text-t">
+              Мы&nbsp;успешно работаем с&nbsp;1992 года
+              и&nbsp;заслужили&nbsp;репутацию&nbsp;надежного партнера
+            </p>
+            <p class="hero__text-n">
+              Мы&nbsp;успешно работаем с&nbsp;1992 года и&nbsp;заслужили
+              репутацию надежного партнера, что подтверждает большое количество
+              постоянных клиентов. Мы&nbsp;гордимся тем, что к&nbsp;нам
+              обращаются по&nbsp;рекомендациям&nbsp;и, в&nbsp;свою очередь,
+              советуют нас родным и&nbsp;близким.
+            </p>
+
+            <a href="#" class="hero__link"
+              ><img src="assets/icons/expand.svg" alt="Далее" /> Читать далее</a
+            >
+          </div>
+
+          <div class="hero__image">
+            <img
+              class="hero-img"
+              src="assets/images/hero.jpg"
+              alt="Фото представительства компании"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
